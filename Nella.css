@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+}
+:root{
+    --prime: #00ff34;
+}
+body{
+    height: 100%;
+    background-color: #131b2b;
+}
+/* -----------------------------navigation bar style--------------------------------- */
+.navbar{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.484);
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+    margin-bottom: 100px;
+}
+.logo{
+    color: white;
+}
+.napk{
+    color: white;
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar a h1:hover{
+    color: var(--prime);
+}
+.navbar B{
+    color: var(--prime);
+}
+
+/* -----------------------------Services style--------------------------------- */
+
+.les_services{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 250px;
+}
+.carte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.top img{
+    border-radius: 3%;
+    height: 300px;
+    width: 400px;
+    font-size: 30px;
+}
+
+img:hover{
+    filter: brightness(100%);
+    transform: scale(1.08);
+    transition: 0.2s ease-in;
+}
+
+/* -------------------------------- style copyright area ------------------------ */
+
+.copyright{
+    text-transform: capitalize;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    background: #222;
+    text-align: center;
+    font-size: 18px;
+}
+.copyright a{
+    color: var(--prime);
+    text-decoration: none;
+    margin: 0 2px;
+    font-weight: lighter;
+}
+

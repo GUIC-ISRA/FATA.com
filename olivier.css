@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --prime: #00ff34;
+}
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #131b2b;
+    color: #fff;
+}
+/* ---------------------------------header style section------------------------------------------ */
+.navbar{
+    margin-top: -17px;
+    margin-left: -20px;
+    margin-bottom: -100px;
+    width: 105%;
+    padding: 30px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.703);
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+
+}
+.navbar .logo a{
+    color: #fff;
+}
+.navbar .logo a:hover{
+    color: var(--prime);
+    cursor: pointer;
+}
+
+.navbar .logo B{
+color: var(--prime);
+}
+
+.navbar .napk a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar .napk a:hover{
+    color: var(--prime);
+    cursor: pointer;
+
+}
+.navbar a{
+    text-decoration: none;
+}
+
+/* ---------------------------------Services style section------------------------------------------ */
+
+.al{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    height: 50vh;
+}
+.main{
+    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+    align-items:none;
+}
+.main .content .card{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-bottom: 5px;
+    flex-direction: row-reverse;
+}
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.57);
+    color: #fff;
+}
+.main .content .card .left p{
+    margin-top: 30px;
+}
+.main .content .card.right{
+    flex: 0 0 70%;
+}
+.main .content .card .right img{
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+}
+ button{
+    font-size: 100%;
+    color: rgb(7, 234, 31);
+    background-color: black;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: var(--prime);
+    color: #fff;
+}
+
+/* -------------------------------- style copyright area ------------------------ */
+
+.copyright{
+    text-transform: capitalize;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    background: #222;
+    text-align: center;
+    font-size: 18px;
+}
+.copyright a{
+    color: var(--prime);
+    text-decoration: none;
+    margin: 0 2px;
+    font-weight: lighter;
+}
+.copyright{
+    margin-top: 150px;
+}
+
+

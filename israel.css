@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --prime: #00ff34;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #131b2b;
+    color: #fff;
+}
+ /* ------------------------------ Header style---------------------------- */
+.tete{
+    width: 105%;
+    margin: -30px;
+    display: flex;
+    padding: 20px 90px;
+    background-color: #0000005d;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.tete h1 a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #fff;
+}
+.logo{
+    font-size: 2.8em;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+.logo B{
+    color: var(--prime);
+}
+.tete h1 a:hover{
+    color: var(--prime);
+}
+
+
+ /* ------------------------------ Exercice section style---------------------------- */
+
+
+.exercise {
+    max-width: 600px
+
+}
+.exercise h2{
+    margin-bottom: 25px;
+}
+.exercise p{
+    margin-bottom: 10px;
+}
+
+
+.exercise-item {
+    margin-bottom: 20px;
+}
+
+.exercise-video {
+    margin-top: 10px;
+}
+video{
+    position: relative;
+    border-radius: 1%;
+    filter: brightness(80%);
+    width: 100%;
+}
+
+button{
+    font-size: 20px;
+    border-radius: 10%;
+    background-color: #000;
+    color: var(--prime);
+    border-radius: 10%;
+    padding: 5px;
+}
+button:hover{
+    color: var(--prime);
+    background-color:var(--prime) ;
+    color: #fff;
+}
+
+input{
+    border-radius: 10%;
+    font-size: 20px;
+    outline: none;
+    background: #fff;
+    color: #000;
+}
+
+/* -------------------------------- style copyright area ------------------------ */
+
+.copyright{
+    text-transform: capitalize;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    background: #222;
+    text-align: center;
+    font-size: 18px;
+}
+.copyright a{
+    color: var(--prime);
+    text-decoration: none;
+    margin: 0 2px;
+    font-weight: lighter;
+}
+

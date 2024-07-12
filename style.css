@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+}
+:root{
+    --prime: #00ff34;
+}
+body{
+    background-color: #131b2b;
+}
+
+/* ----------------------Header styles----------------------- */
+.tete{
+    width: 100%;
+    display: flex;
+    position: fixed;
+
+    padding: 30px 120px;
+    background-color: transparent;
+    justify-content: space-between;
+    transition: 0.5s ease;
+    z-index: 1111;
+
+}
+.tete h1 a{
+    text-decoration: none;
+    font-size: 50px;
+    color: #fff;
+}
+.logo{
+    font-size: 2.8em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+.logo B{
+    color: var(--prime);
+}
+.tete h1 a:hover{
+    color: var(--prime);
+}
+
+/* ----------------------SECTION ACCEUIL----------------------- */
+.view{
+    width: 100%;
+    min-height: 80vh;
+    position: relative;
+}
+.accueil{
+    display: flex;
+    min-height: 120vh;
+    align-items: center;
+    justify-content: center;
+}
+.banner{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(40%);
+}
+.highlights{
+    width: 70%;
+    position: relative;
+    display: inline-block;
+    z-index: 11;
+}
+.highlights h3{
+    display: inline;
+    font-style: 2vw;
+    padding: 5px 20px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    border-left: 6px solid var(--prime);
+}
+.highlights h2{
+    font-size: 9vw;
+    text-align: center;
+    font-weight: normal;
+}
+.highlights b{
+    color: var(--prime);
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.highlights .tagline{
+    color: #d7d7d7;
+    font-size: 1.2vw;
+    text-align: center;
+    font-size: normal;
+}
+.highlights .commencer{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 800;
+    padding: 15px 20px;
+    font-size: 1.5vw;
+    margin-top: 50px;
+    color: var(--prime);
+    border: 2px solid var(--prime);
+    border-radius: 50px;
+    background: transparent;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+
+}
+.highlights .commencer:hover{
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    background: var(--prime);
+}
+.commencer a{
+    text-decoration: none;
+    color: var(--prime);
+}
+.highlights .commencer a:hover{
+    color: #fff;
+}
+
+/* -------------------------------- style copyright area ------------------------ */
+
+.copyright{
+    text-transform: capitalize;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    background: #222;
+    text-align: center;
+    font-size: 18px;
+}
+.copyright a{
+    color: var(--prime);
+    text-decoration: none;
+    margin: 0 2px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+

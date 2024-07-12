@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exercices Physiques</title>
+<link rel="stylesheet" href="israel.css">
+</head>
+<body>
+
+<!-- ----------------------------------- navigation bar ------------------------------ -->
+
+    <nav class="tete">
+        <a href="index.html" class="logo">F<B>A</B>.</a>
+        <h1><a href="olivier.html">Retour</a></h1>
+    </nav>
+
+<!-- ----------------------------------- Exercices section ------------------------------ -->
+
+     <section class="view">
+    <div class="exercise">
+        <h2>Exercices Abdominal Jour 1</h2>
+        <p>une Durée de seconde depassant 60 sera percu comme 60s</p>
+        <form id="exerciseForm">
+            <div class="exercise-item">
+                <label for="crunchDuration">Durée (en secondes):</label>
+                <input type="number" id="crunchDuration" name="crunchDuration" required>
+                <button type="button" onclick="startVideo('crunch')">Lancer</button>
+                <video id="crunchVideo" class="exercise-video" controls>
+                    <source src="video11.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="exercise-item">
+                <label for="plankDuration">Durée (en secondes):</label>
+                <input type="number" id="plankDuration" name="plankDuration" required>
+                <button type="button" onclick="startVideo('plank')">Lancer</button>
+                <video id="plankVideo" class="exercise-video" controls>
+                    <source src="video12.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="exercise-item">
+                <label for="scissorsDuration">Durée (en secondes):</label>
+                <input type="number" id="scissorsDuration" name="scissorsDuration" required>
+                <button type="button" onclick="startVideo('scissors')">Lancer</button>
+                <video id="scissorsVideo" class="exercise-video" controls>
+                    <source src="video13.mp4" type="video/mp4">   
+                </video>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- ----------------------------------- Copyright section ------------------------------ -->
+
+<section class="copyright">
+    &copy; copyright <a href="#">isonellovier.com</a> 2024 | All Rights Reserved
+</section>
+
+    <script src="israel.js"></script>
+</body>
+</html>
